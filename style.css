@@ -1,0 +1,104 @@
+* {
+  font-family: "EB Garamond", serif;
+}
+.maindiv {
+  /* margin: 0 100px; */
+}
+.menumainclass {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.menuitems {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 200;
+  color: inherit;
+  color: gray;
+  padding: 10px 20px;
+}
+.menuitems:hover {
+  color: black;
+  border-bottom-width: 3px;
+  border-bottom-color: rgb(202, 231, 70);
+  border-bottom-style: solid;
+  transition: 0.5s;
+}
+/* container class */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.containerone {
+  width: 40%;
+  /* display: block; */
+}
+.containertwo {
+  width: 40%;
+  padding: 20px;
+  margin-top: 70px;
+}
+#handout {
+  font-size: 5rem;
+  color: rgb(152, 49, 221);
+}
+.para {
+  word-wrap: break-word;
+  font-size: 19px;
+  color: rgb(157, 88, 203);
+}
+.input {
+  background: rgb(235, 242, 247);
+  width: 200px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.login {
+  display: inline;
+}
+#login {
+  height: 30px;
+  width: 70px;
+  color: white;
+  border-radius: 30px;
+  background: rgb(94, 66, 248);
+  margin-right: 20px;
+  font-size: 16px;
+}
+#login:hover {
+  background: rgb(74, 51, 204);
+  transition: 0.5s;
+}
+.keepme {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.data {
+  text-decoration: none;
+  color: inherit;
+  padding: 20px;
+  align-items: center;
+}
